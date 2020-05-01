@@ -69,13 +69,6 @@ aside {
   border-radius: 0px;
   padding-bottom: 0; }
 
-#main1 button a, #main2 button a {
-  color: white;
-  text-decoration: none; }
-
-#main1 button a:hover, #main2 button a:hover {
-  text-decoration: underline; }
-
 #main1, #main2 {
   background-color: #a1d7d7; }
 
