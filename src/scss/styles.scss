@@ -1,16 +1,3 @@
-//daniels css
-.danielsImg img{
-  height: auto;
-  width: 90%;
-  margin-right: 2em;
-  margin-left: 2em;
-  padding: 2em;
-}
-
-.tagline{
-  text-align: right;
-}
-
 //sass variables
 $theme-colors: (  
   "dark": rgb(92,109,173) 
@@ -183,6 +170,19 @@ footer a:hover {
 .fa-instagram {
   background: #125688;
   color: white;
+}
+
+//daniels css
+.danielsImg img{
+  height: auto;
+  width: 90%;
+  margin-right: 2em;
+  margin-left: 2em;
+  padding: 2em;
+}
+
+.tagline{
+  text-align: right;
 }
 
 // Bootstrap Sass Imports
