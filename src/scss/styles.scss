@@ -1,3 +1,16 @@
+//daniels css
+.danielsImg img{
+  height: auto;
+  width: 90%;
+  margin-right: 2em;
+  margin-left: 2em;
+  padding: 2em;
+}
+
+.tagline{
+  text-align: right;
+}
+
 //sass variables
 $theme-colors: (  
   "dark": rgb(92,109,173) 
@@ -28,8 +41,7 @@ h3, h4, h5, h6 {
 }
 
 #header {
-  padding: 2em;
-  font-size: large;
+  font-size: 200%;
   border: outset rgb(92,109,173);
   border-radius: 4px;
 }

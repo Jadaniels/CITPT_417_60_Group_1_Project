@@ -1,3 +1,13 @@
+.danielsImg img {
+  height: auto;
+  width: 90%;
+  margin-right: 2em;
+  margin-left: 2em;
+  padding: 2em; }
+
+.tagline {
+  text-align: right; }
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: #86a3c5;
@@ -11,8 +21,7 @@ h3, h4, h5, h6 {
   font-family: Arial, Helvetica, sans-serif; }
 
 #header {
-  padding: 2em;
-  font-size: large;
+  font-size: 200%;
   border: outset #5c6dad;
   border-radius: 4px; }
 
