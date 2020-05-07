@@ -185,5 +185,22 @@ footer a:hover {
   text-align: right;
 }
 
+//content1 styles - Jim
+#content1 #img_jim {
+  height: auto;
+  width: 60%;
+}
+
+//about styles -Jim
+#about aside img {
+  height: auto;
+  width: 60%;
+}
+
+#about img[src*="question"] {
+  height: auto;
+  width: 66%;
+}
+
 // Bootstrap Sass Imports
 @import "node_modules/bootstrap/scss/bootstrap";

@@ -136,6 +136,18 @@ footer a:hover {
 .tagline {
   text-align: right; }
 
+#content1 #img_jim {
+  height: auto;
+  width: 60%; }
+
+#about aside img {
+  height: auto;
+  width: 60%; }
+
+#about img[src*="question"] {
+  height: auto;
+  width: 66%; }
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
