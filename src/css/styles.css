@@ -44,7 +44,7 @@ aside {
   width: 60%;
   margin: 1em;
   background-color: #a1d7d7;
-  border: outset #a1d7d7;
+  border: outset;
   border-radius: 4px; }
   #main_section img {
     height: auto;
