@@ -148,6 +148,12 @@ footer a:hover {
   height: auto;
   width: 66%; }
 
+.resources .lineitems {
+  font-size: 1.5em; }
+
+.resources .asidetitle {
+  font-size: 2.0em; }
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
