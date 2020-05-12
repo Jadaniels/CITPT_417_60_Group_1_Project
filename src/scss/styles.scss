@@ -1,7 +1,5 @@
 //sass variables
-$theme-colors: (  
-  "dark": rgb(92,109,173) 
-);
+$theme-colors: ("dark": rgb(92,109,173));
 
 $main-bg: rgb(161,215,215); 
 
@@ -45,7 +43,7 @@ main {
 
 .jumbotron {
   color: black;
-  border: outset;
+  border-style: outset;
 }
 
 aside {
@@ -65,10 +63,10 @@ aside {
 }
 
 #main_section {
-  width: 60%;
+  width: 100%;
   margin: 1em;
   background-color: $main-bg;
-  border: outset;
+  border: outset $main-bg;
   border-radius: 4px;
   img {
     height: auto;
@@ -84,7 +82,7 @@ aside {
 
 //main iframes
 #main_section iframe{
-  height: 100%;
+  height: 99%;
   width: 100%;
   border: none;
 }
@@ -202,13 +200,31 @@ footer a:hover {
   width: 66%;
 }
 
-//home page aside
-.resources .lineitems{
-  font-size: 1.0em;
+//media query 
+@media (max-width: 767px) {
+#main_section {
+  margin: auto;
 }
 
-.resources .asidetitle{
-  font-size: 2.0em;
+aside {
+  width: 100%;
 }
+
+#logo {
+  height: auto;
+  width: 100%;
+  margin: auto;
+}
+
+#soc {
+  display: none;
+}
+
+#content1 iframe {
+  height: 100vh;
+}
+
+}
+
 // Bootstrap Sass Imports
 @import "node_modules/bootstrap/scss/bootstrap";
